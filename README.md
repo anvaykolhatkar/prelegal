@@ -1,2 +1,4 @@
 # prelegal
-A platform for drafting common legal aggrements
+A platform for drafting common legal agreements
+
+> **Status: Work in progress** — this project is under active development and is expected to be completed by **October 22, 2026**.
