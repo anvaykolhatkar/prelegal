@@ -1,0 +1,158 @@
+# =========================================================
+# Python / FastAPI
+# =========================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+pip-wheel-metadata/
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# uv / poetry / pipenv caches
+.uv/
+.pdm-python
+.pdm-build/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.tox/
+.nox/
+.hypothesis/
+
+# Type checkers / linters
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.pytype/
+.dmypy.json
+dmypy.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Alembic generated (keep migrations, ignore local artifacts)
+# alembic/versions/__pycache__/ is covered by __pycache__/
+
+# =========================================================
+# Node / Next.js
+# =========================================================
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js build output
+.next/
+out/
+next-env.d.ts
+
+# Production build
+/build
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# Vercel / Turborepo
+.vercel
+.turbo
+
+# Testing
+/coverage
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+# =========================================================
+# Environment & secrets
+# =========================================================
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+secrets/
+
+# =========================================================
+# Docker
+# =========================================================
+docker-compose.override.yml
+
+# =========================================================
+# Logs & temp files
+# =========================================================
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# =========================================================
+# OS files
+# =========================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================================================
+# Editors / IDEs
+# =========================================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# =========================================================
+# Claude Code (keep shared settings, ignore local overrides)
+# =========================================================
+.claude/settings.local.json
